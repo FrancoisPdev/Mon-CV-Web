@@ -2,422 +2,402 @@
 		Author's area
    ========================================================= */
 
-
 @import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat:200&display=swap');
-		
-	/* ========================================================
-			@media area
-	   ======================================================== */
-		/*Extra small devices (phones, 600px and down)
 
-	   ========================================================= */
-	
-	@media screen and (min-width: 240px) and (max-width: 600px){
+/* ======================================================== */
+/*			@media area
+/*
+/*
+/*	Extra small devices (phones, 600px and down)
+/*
+/* ========================================================= */
 
-	
-	html{
-	padding: 0;
-	margin: 0;
-	font-size: 10px;
-	font-family: 'Lato', sans-serif;
-	text-align: justify;
-
-	}
-
- 	.wrapper {
-  	display: grid;
-  	grid-template-columns: repeat(5, 1fr);
-  	grid-gap:.5rem;
-  	grid-auto-rows: minmax(10rem, auto);
-	}
-
-	.wrapper > div, header, footer {
-  	border: .1rem solid rgb(233,171,88);
-  	border-radius:1rem;
-  	background-color: rgba(233,171,88,.5);
- 	padding: 1em;
-  	color: #d9480f;
-	}
-	.one {
-	grid-column:1 / 6;
-	grid-row: 1;
-	}
-	.two { 
-	  grid-column: 1 / 6;
-	  grid-row: 2;
-	}
-	.three {
-	  grid-column: 1 / 6;
-	  grid-row: 4;
-	}
-	.four {
-	  grid-column: 1 / 6;
-	  grid-row: 5;
-	}
-	.five {
-	  grid-column: 1 / 6;
-	  grid-row: 6;
-	}
-	.six {
-	  grid-column: 1 / 6;
-	  grid-row: 3;
-	}
-	/* ==============================
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  html {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: .5rem;
+    grid-auto-rows: minmax(10rem, auto);
+  }
+  .wrapper>div,
+  header,
+  footer {
+    border: .1rem solid rgb(233, 171, 88);
+    border-radius: 1rem;
+    background-color: rgba(233, 171, 88, .5);
+    padding: 1em;
+    color: #d9480f;
+  }
+  .one {
+    grid-column: 1 / 6;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1 / 6;
+    grid-row: 2;
+  }
+  .three {
+    grid-column: 1 / 6;
+    grid-row: 4;
+  }
+  .four {
+    grid-column: 1 / 6;
+    grid-row: 5;
+  }
+  .five {
+    grid-column: 1 / 6;
+    grid-row: 6;
+  }
+  .six {
+    grid-column: 1 / 6;
+    grid-row: 3;
+  }
+  /* ==============================
 		HN -- p --
 	   ============================== */
-	h1 {
-		font-size:3rem;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	h2 {
-	
-		font-size:2.5rem;
-		background-color:hsl(204, 98%, 38%);
-		text-align:center;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	p {
-		font-size:2rem;
-		color:black;
-		
-	}
-	/* ==============================
+  h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2 {
+    font-size: 2.5rem;
+    background-color: hsl(204, 98%, 38%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    font-size: 2rem;
+    color: black;
+  }
+  /* ==============================
 		li -- p --
 	   ============================== */
-		li{
-		list-style:none;
-		font-size:2rem;
-		color:black;
-	}
-	/* ==============================
+  li {
+    list-style: none;
+    font-size: 2rem;
+    color: black;
+  }
+  /* ==============================
 		img
 	   ============================== */
-		img{
-		float:center;
-	}
-	/* ==============================
+  img {
+    float: center;
+    border-radius:100%;
+    border:.3rem dashed black;
+  }
+  /* ==============================
 		top bar
 	   ============================== */
-		#top{
-		grid-column:1 / 6;
-		grid-row: 7;
-		text-align:center;
-	}
+  #top {
+    grid-column: 1 / 6;
+    grid-row: 7;
+    text-align: center;
+  }
+}
 
-	}
 
-	/* =========================================================
-	
-	   ========================================================= */
-		/* Small devices (portrait tablets and large phones, 600px and up) */
-	/* =========================================================
-	
-	   ========================================================= */
-	
-	@media screen and (min-width: 600px) and (max-width: 768px){
+/* ========================================================= */
+/*
+/*
+/*
+/*
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*
+/*
+/* ========================================================= */
 
-	
-	html{
-	padding: 0;
-	margin: 0;
-	font-size: 10px;
-	font-family: 'Lato', sans-serif;
-	text-align: justify;
-
-	}
-
- 	.wrapper {
-  	display: grid;
-  	grid-template-columns: repeat(9, 1fr);
-  	grid-gap:.5rem;
-  	grid-auto-rows: minmax(10rem, auto);
-	}
-
-	.wrapper > div, header, footer {
-  	border: .1rem solid rgb(233,171,88);
-  	border-radius:1rem;
-  	background-color: rgba(233,171,88,.5);
- 	padding: 1em;
-  	color: #d9480f;
-	}
-	.one {
-	grid-column:1 / 10;
-	grid-row: 1;
-	}
-	.two { 
-	  grid-column: 1 / 10;
-	  grid-row: 2;
-	}
-	.three {
-	  grid-column: 1 / 10;
-	  grid-row: 4;
-	}
-	.four {
-	  grid-column: 1 / 10;
-	  grid-row: 5;
-	}
-	.five {
-	  grid-column: 1 / 10;
-	  grid-row: 6;
-	}
-	.six {
-	  grid-column: 1 / 10;
-	  grid-row: 3;
-	}
-	/* ==============================
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  html {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: .5rem;
+    grid-auto-rows: minmax(10rem, auto);
+  }
+  .wrapper>div,
+  header,
+  footer {
+    border: .1rem solid rgb(233, 171, 88);
+    border-radius: 1rem;
+    background-color: rgba(233, 171, 88, .5);
+    padding: 1em;
+    color: #d9480f;
+  }
+  .one {
+    grid-column: 1 / 10;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1 / 10;
+    grid-row: 2;
+  }
+  .three {
+    grid-column: 1 / 10;
+    grid-row: 4;
+  }
+  .four {
+    grid-column: 1 / 10;
+    grid-row: 5;
+  }
+  .five {
+    grid-column: 1 / 10;
+    grid-row: 6;
+  }
+  .six {
+    grid-column: 1 / 10;
+    grid-row: 3;
+  }
+  /* ==============================
 		HN -- p --
 	   ============================== */
-	h1 {
-		font-size:4rem;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	h2 {
-	
-		font-size:3.5rem;
-		background-color:hsl(204, 98%, 38%);
-		text-align:center;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	p {
-		font-size:2.5rem;
-		color:black;
-		
-	}
-	/* ==============================
+  h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2 {
+    font-size: 3.5rem;
+    background-color: hsl(204, 98%, 38%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    font-size: 2.5rem;
+    color: black;
+  }
+  /* ==============================
 		li -- p --
 	   ============================== */
-		li{
-		list-style:none;
-		font-size:2.5rem;
-		color:black;
-	}
-	/* ==============================
+  li {
+    list-style: none;
+    font-size: 2.5rem;
+    color: black;
+  }
+  /* ==============================
 		img
 	   ============================== */
-		img{
-		float:right;
-	}
-	/* ==============================
+  img {
+    float: right;
+    border-radius:100%;
+    border:.3rem dashed black;
+  }
+  /* ==============================
 		top bar
 	   ============================== */
-		#top{
-		grid-column:1 / 10;
-		grid-row: 7;
-		text-align:center;
-	}
+  #top {
+    grid-column: 1 / 10;
+    grid-row: 7;
+    text-align: center;
+  }
+}
 
-	}
-	/* =========================================================
-	
-	   ========================================================= */
-		/* Medium devices (landscape tablets, 768px and up) */
-	/* =========================================================
-		
-	   ========================================================= */
-	
-	@media screen and (min-width: 768px) and (max-width: 1280px) {
 
-	
-	html{
-	padding: 0;
-	margin: 0;
-	font-size: 10px;
-	font-family: 'Lato', sans-serif;
-	text-align: justify;
-
-	}
-
- 	.wrapper {
-  	display: grid;
-  	grid-template-columns: repeat(13, 1fr);
-  	grid-gap:.5rem;
-  	grid-auto-rows: minmax(10rem, auto);
-	}
-
-	.wrapper > div, header, footer {
-  	border: .1rem solid rgb(233,171,88)
-  	border-radius:1rem;
-  	background-color: rgba(233,171,88,.5);
- 	padding: 1em;
-  	color: #d9480f;
-	}
-	.one {
-	grid-column:1 / 14;
-	grid-row: 1;
-	}
-	.two { 
-	  grid-column: 1 / 7;
-	  grid-row: 2;
-	}
-	.three {
-	  grid-column: 1 / 14;
-	  grid-row: 3;
-	}
-	.four {
-	  grid-column: 1 / 14;
-	  grid-row: 4;
-	}
-	.five {
-	  grid-column: 1 / 14;
-	  grid-row: 5;
-	}
-	.six {
-	  grid-column: 8 / 14;
-	  grid-row: 2;
-	}
-	/* ==============================
+/* =========================================================
+/*
+/*
+/*
+/*	Medium devices (landscape tablets, 768px and up) */
+/*
+/*
+/* ========================================================= */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  html {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: .5rem;
+    grid-auto-rows: minmax(10rem, auto);
+  }
+  .wrapper>div,
+  header,
+  footer {
+    border: .1rem solid rgb(233, 171, 88) border-radius:1rem;
+    background-color: rgba(233, 171, 88, .5);
+    padding: 1em;
+    color: #d9480f;
+  }
+  .one {
+    grid-column: 1 / 14;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1 / 7;
+    grid-row: 2;
+  }
+  .three {
+    grid-column: 1 / 14;
+    grid-row: 3;
+  }
+  .four {
+    grid-column: 1 / 14;
+    grid-row: 4;
+  }
+  .five {
+    grid-column: 1 / 14;
+    grid-row: 5;
+  }
+  .six {
+    grid-column: 8 / 14;
+    grid-row: 2;
+  }
+  /* ==============================
 		HN -- p --
 	   ============================== */
-	h1 {
-		font-size:5rem;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	h2 {
-	
-		font-size:4.5rem;
-		background-color:hsl(204, 98%, 38%);
-		text-align:center;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	p {
-		font-size:3rem;
-		color:black;
-		
-	}
-	/* ==============================
+  h1 {
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2 {
+    font-size: 4.5rem;
+    background-color: hsl(204, 98%, 38%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    font-size: 3rem;
+    color: black;
+  }
+  /* ==============================
 		li -- p --
 	   ============================== */
-		li{
-		list-style:none;
-		font-size:3rem;
-		color:black;
-	}
-	/* ==============================
+  li {
+    list-style: none;
+    font-size: 3rem;
+    color: black;
+  }
+  /* ==============================
 		img
 	   ============================== */
-		img{
-		float:right;
-	}
-	/* ==============================
+  img {
+    float: right;
+    border-radius:100%;
+    border:.3rem dashed black;
+  /* ==============================
 		top bar
 	   ============================== */
-		#top{
-		grid-column:1 / 14;
-		grid-row: 6;
-		text-align:center;
-	}
+  #top {
+    grid-column: 1 / 14;
+    grid-row: 6;
+    text-align: center;
+  }
+}
 
-	}
-	/* =========================================================
-	
-	   ========================================================= */
-		/* Large devices (laptops/desktops, 992px and up) */
-	/* =========================================================
-	
-	   ========================================================= */
-	
-	@media screen and (min-width: 992px) and (max-width:+4000px){
 
-	
-	html{
-	padding: 0;
-	margin: 0;
-	font-size: 10px;
-	font-family: 'Lato', sans-serif;
-	text-align: justify;
+/* ========================================================= */
+/*
+/*
+/*
+/*
+/*	/* Large devices (laptops/desktops, 992px and up) */
+/*
+/* ========================================================= */
 
-	}
-
- 	.wrapper {
-  	display: grid;
-  	grid-template-columns: repeat(13, 1fr);
-  	grid-gap:.5rem;
-  	grid-auto-rows: minmax(10rem, auto);
-	}
-
-	.wrapper > div, header, footer {
-  	border: .1rem solid rgb(233,171,88);
-  	border-radius:1rem;
-  	background-color: rgba(233,171,88,.5);
- 	padding: 1em;
-  	color: #d9480f;
-	}
-	.one {
-	grid-column:1 / 14;
-	grid-row: 1;
-	}
-	.two { 
-	  grid-column: 1 / 7;
-	  grid-row: 2;
-	}
-	.three {
-	  grid-column: 1 / 14;
-	  grid-row: 3;
-	}
-	.four {
-	  grid-column: 1 / 14;
-	  grid-row: 4;
-	}
-	.five {
-	  grid-column: 1 / 14;
-	  grid-row: 5;
-	}
-	.six {
-	  grid-column: 8 / 14;
-	  grid-row: 2;
-	}
-	/* ==============================
+@media screen and (min-width: 992px) and (max-width:+4000px) {
+  html {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: .5rem;
+    grid-auto-rows: minmax(10rem, auto);
+  }
+  .wrapper>div,
+  header,
+  footer {
+    border: .1rem solid rgb(233, 171, 88);
+    border-radius: 1rem;
+    background-color: rgba(233, 171, 88, .5);
+    padding: 1em;
+    color: #d9480f;
+  }
+  .one {
+    grid-column: 1 / 14;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1 / 7;
+    grid-row: 2;
+  }
+  .three {
+    grid-column: 1 / 14;
+    grid-row: 3;
+  }
+  .four {
+    grid-column: 1 / 14;
+    grid-row: 4;
+  }
+  .five {
+    grid-column: 1 / 14;
+    grid-row: 5;
+  }
+  .six {
+    grid-column: 8 / 14;
+    grid-row: 2;
+  }
+  /* ==============================
 		HN -- p --
 	   ============================== */
-	h1 {
-		font-size:4.5rem;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	h2 {
-	
-		font-size:4rem;
-		background-color:hsl(204, 98%, 38%);
-		text-align:center;
-		font-family: 'Montserrat', sans-serif;
-
-	}
-	p {
-		font-size:2.5rem;
-		color:black;
-		
-	}
-	/* ==============================
+  h1 {
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2 {
+    font-size: 4rem;
+    background-color: hsl(204, 98%, 38%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    font-size: 2.5rem;
+    color: black;
+  }
+  /* ==============================
 		li -- p --
 	   ============================== */
-		li{
-		list-style:none;
-		font-size:2.5rem;
-		color:black;
-	}
-	/* ==============================
+  li {
+    list-style: none;
+    font-size: 2.5rem;
+    color: black;
+  }
+  /* ==============================
 		img
 	   ============================== */
-		img{
-		float:right;
-	}
-	/* ==============================
+  img {
+    float: right;
+    border-radius:100%;
+    border:.3rem dashed black;
+  }
+  /* ==============================
 		top bar
 	   ============================== */
-		#top{
-		grid-column:1 / 14;
-		grid-row: 6;
-		text-align:center;
-	}
+  #top {
+    grid-column: 1 / 14;
+    grid-row: 6;
+    text-align: center;
+  }
+}
 
-	}
-	/* =========================================================
-	
-	   ========================================================= */		
