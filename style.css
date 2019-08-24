@@ -201,7 +201,7 @@
 	   ============================== */
   #top {
     grid-column: 1 / 10;
-    grid-row: 6;
+    grid-row: 7;
     text-align: center;
   }
 }
@@ -232,7 +232,7 @@
   .wrapper>div,
   header,
   footer {
-    border: .1rem solid rgb(233, 171, 88) border-radius:1rem;
+    border: .1rem solid rgb(233, 171, 88);
     background-color: rgba(233, 171, 88, .5);
     padding: 1em;
     color: #d9480f;
@@ -294,6 +294,7 @@
     float: right;
     border-radius:100%;
     border:.3rem solid hsl(180, 100%, 50%);
+}
   /* ==============================
 		top bar
 	   ============================== */
