@@ -24,17 +24,18 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: .5rem;
+    grid-gap: 1rem;
     grid-auto-rows: minmax(10rem, auto);
   }
   .wrapper>div,
   header,
   footer {
-    border: .1rem solid rgb(233, 171, 88);
+    border: .2rem dashed black;
     border-radius: 1rem;
     background-color: rgba(233, 171, 88, .5);
     padding: 1em;
     color: #d9480f;
+    box-shadow: 0 0 1rem black;
   }
   .one {
     grid-column: 1 / 6;
@@ -91,7 +92,7 @@
   img {
     float: center;
     border-radius:100%;
-    border:.3rem dashed black;
+    border:.3rem solid black;
   }
   /* ==============================
 		top bar
@@ -125,17 +126,18 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-gap: .5rem;
+    grid-gap: 1rem;
     grid-auto-rows: minmax(10rem, auto);
   }
   .wrapper>div,
   header,
   footer {
-    border: .1rem solid rgb(233, 171, 88);
+    border: .2rem dashed black;
     border-radius: 1rem;
     background-color: rgba(233, 171, 88, .5);
     padding: 1em;
     color: #d9480f;
+    box-shadow: 0 0 .7rem black;
   }
   .one {
     grid-column: 1 / 10;
@@ -192,14 +194,14 @@
   img {
     float: right;
     border-radius:100%;
-    border:.3rem dashed black;
+    border:.3rem solid hsl(60, 100%, 50%);
   }
   /* ==============================
 		top bar
 	   ============================== */
   #top {
     grid-column: 1 / 10;
-    grid-row: 7;
+    grid-row: 6;
     text-align: center;
   }
 }
@@ -213,7 +215,7 @@
 /*
 /*
 /* ========================================================= */
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1380px) {
   html {
     padding: 0;
     margin: 0;
@@ -224,7 +226,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    grid-gap: .5rem;
+    grid-gap: 1.5rem;
     grid-auto-rows: minmax(10rem, auto);
   }
   .wrapper>div,
@@ -234,6 +236,7 @@
     background-color: rgba(233, 171, 88, .5);
     padding: 1em;
     color: #d9480f;
+    box-shadow: 0 0 1rem black;
   }
   .one {
     grid-column: 1 / 14;
@@ -290,7 +293,7 @@
   img {
     float: right;
     border-radius:100%;
-    border:.3rem dashed black;
+    border:.3rem solid hsl(180, 100%, 50%);
   /* ==============================
 		top bar
 	   ============================== */
@@ -311,7 +314,7 @@
 /*
 /* ========================================================= */
 
-@media screen and (min-width: 992px) and (max-width:+4000px) {
+@media screen and (min-width: 992px) and (max-width:4000px) {
   html {
     padding: 0;
     margin: 0;
@@ -322,7 +325,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    grid-gap: .5rem;
+    grid-gap: 1.5rem;
     grid-auto-rows: minmax(10rem, auto);
   }
   .wrapper>div,
@@ -333,6 +336,7 @@
     background-color: rgba(233, 171, 88, .5);
     padding: 1em;
     color: #d9480f;
+    box-shadow: 0 0 .7rem black;
   }
   .one {
     grid-column: 1 / 14;
@@ -389,7 +393,7 @@
   img {
     float: right;
     border-radius:100%;
-    border:.3rem dashed black;
+    border:.3rem solid hsl(95, 65%, 55%);
   }
   /* ==============================
 		top bar
