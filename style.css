@@ -111,7 +111,14 @@
 /*
 /*
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/*
+/* From https://color.adobe.com/fr/search?q=cv&t=term for colours
+
+/* Color Theme Swatches in RGBA *//*
+.Les-Patines-de-Loma-CV-1-rgba { color: rgba(255, 163, 98, 1); background box}
+.Les-Patines-de-Loma-CV-2-rgba { color: rgba(255, 232, 237, 1); background hn }
+.Les-Patines-de-Loma-CV-3-rgba { color: rgba(232, 223, 103, 1); border img }
+.Les-Patines-de-Loma-CV-4-rgba { color: rgba(149, 198, 70, 1); hn tag }
+.Les-Patines-de-Loma-CV-5-rgba { color: rgba(163, 232, 226, 1); text }
 /*
 /* ========================================================= */
 
@@ -134,7 +141,7 @@
   footer {
     border: .2rem dashed black;
     border-radius: 1rem;
-    background-color: rgba(233, 171, 88, .5);
+    background-color:rgba(255, 163, 99);
     padding: 1em;
     color: #d9480f;
     box-shadow: 0 0 .7rem black;
@@ -169,16 +176,18 @@
   h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
+    color:rgba(150,199,70);
   }
   h2 {
     font-size: 3.5rem;
-    background-color: hsl(204, 98%, 38%);
+    background-color: rgba(255,233,238);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    color:rgba(150,199,70);
   }
   p {
     font-size: 2.5rem;
-    color: black;
+    color:rgba(163,232,226);
   }
   /* ==============================
 		li -- p --
@@ -186,7 +195,7 @@
   li {
     list-style: none;
     font-size: 2.5rem;
-    color: black;
+    color: rgba(163,232,226);
   }
   /* ==============================
 		img
@@ -194,7 +203,7 @@
   img {
     float: right;
     border-radius:100%;
-    border:.3rem solid hsl(60, 100%, 50%);
+    border:.3rem solid rgba(232,224,104); 
   }
   /* ==============================
 		top bar
