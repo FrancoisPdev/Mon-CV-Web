@@ -90,7 +90,6 @@
 		img
 	   ============================== */
   img {
-    float: center;
     border-radius:100%;
     border:.3rem solid black;
   }
