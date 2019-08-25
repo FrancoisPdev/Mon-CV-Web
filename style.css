@@ -94,14 +94,16 @@
     border:.3rem solid black;
   }
   /* ==============================
-		top bar
+		Footer
 	   ============================== */
   #top {
-    grid-column: 1 / 6;
-    grid-row: 7;
     text-align: center;
   }
-/* icone */
+/* icone top */
+ .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
+margin-left: 6.5rem;
+}
+/* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
     margin-left:2rem;
   }
@@ -209,14 +211,16 @@
     border:.3rem solid rgba(232,224,104); 
   }
   /* ==============================
-		top bar
+		Footer
 	   ============================== */
   #top {
-    grid-column: 1 / 10;
-    grid-row: 7;
     text-align: center;
   }
-/* icone */
+/* icone top */
+ .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
+margin-left:10rem;
+}
+/* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
     margin-left:4.3rem;
   }
@@ -231,7 +235,7 @@
 /*
 /*
 /* ========================================================= */
-@media screen and (min-width: 768px) and (max-width: 1380px) {
+@media screen and (min-width: 769px) and (max-width: 1380px) {
   html {
     padding: 0;
     margin: 0;
@@ -315,11 +319,13 @@
 		top bar
 	   ============================== */
   #top {
-    grid-column: 1 / 14;
-    grid-row: 6;
     text-align: center;
   }
-/* icone */
+/* icone top */
+ .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
+margin-left:14.5rem;
+}
+/* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
     margin-left:7.5rem;
   }
@@ -417,14 +423,17 @@
     border:.3rem solid hsl(95, 65%, 55%);
   }
   /* ==============================
-		top bar
+		Footer
 	   ============================== */
   #top {
-    grid-column: 1 / 14;
-    grid-row: 6;
     text-align: center;
   }
-/* icone */
+/* icone top */
+ .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
+margin-left:20rem;
+color:black;
+}
+/* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
     margin-left:12rem;
     color:black;
