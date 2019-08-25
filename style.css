@@ -101,6 +101,10 @@
     grid-row: 7;
     text-align: center;
   }
+/* icone */
+  .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
+    margin-left:2rem;
+  }
 }
 
 
@@ -212,6 +216,10 @@
     grid-row: 7;
     text-align: center;
   }
+/* icone */
+  .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
+    margin-left:4.3rem;
+  }
 }
 
 
@@ -310,6 +318,10 @@
     grid-column: 1 / 14;
     grid-row: 6;
     text-align: center;
+  }
+/* icone */
+  .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
+    margin-left:7.5rem;
   }
 }
 
@@ -411,6 +423,11 @@
     grid-column: 1 / 14;
     grid-row: 6;
     text-align: center;
+  }
+/* icone */
+  .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
+    margin-left:12rem;
+    color:black;
   }
 }
 
