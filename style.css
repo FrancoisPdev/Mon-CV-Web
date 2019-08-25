@@ -346,7 +346,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
     grid-auto-rows: minmax(10rem, auto);
   }
   .wrapper>div,
@@ -354,7 +354,7 @@
   footer {
     border: .1rem solid rgb(233, 171, 88);
     border-radius: 1rem;
-    background-color: rgba(233, 171, 88, .5);
+    background-color:hsl(0, 0%, 95%);
     padding: 1em;
     color: #d9480f;
     box-shadow: 0 0 .7rem black;
@@ -392,13 +392,13 @@
   }
   h2 {
     font-size: 4rem;
-    background-color: hsl(204, 98%, 38%);
+    background-color:hsl(210, 42%, 75%);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
   p {
     font-size: 2.5rem;
-    color: black;
+    color: hsl(0, 0%, 5%);
   }
   /* ==============================
 		li -- p --
@@ -406,7 +406,7 @@
   li {
     list-style: none;
     font-size: 2.5rem;
-    color: black;
+    color: hsl(0, 0%, 5%);
   }
   /* ==============================
 		img
