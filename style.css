@@ -116,15 +116,7 @@ margin-left: 6.5rem;
 /*
 /*
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* From https://color.adobe.com/fr/search?q=cv&t=term for colours
-
-/* Color Theme Swatches in RGBA *//*
-.Les-Patines-de-Loma-CV-1-rgba { color: rgba(255, 163, 98, 1); background box}
-.Les-Patines-de-Loma-CV-2-rgba { color: rgba(255, 232, 237, 1); background hn }
-.Les-Patines-de-Loma-CV-3-rgba { color: rgba(232, 223, 103, 1); border img }
-.Les-Patines-de-Loma-CV-4-rgba { color: rgba(149, 198, 70, 1); hn tag }
-.Les-Patines-de-Loma-CV-5-rgba { color: rgba(163, 232, 226, 1); text }
-/*
+/
 /* ========================================================= */
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -138,7 +130,7 @@ margin-left: 6.5rem;
   .wrapper {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     grid-auto-rows: minmax(10rem, auto);
   }
   .wrapper>div,
@@ -146,8 +138,8 @@ margin-left: 6.5rem;
   footer {
     border: .2rem dashed black;
     border-radius: 1rem;
-    background-color:rgba(255, 163, 99);
-    padding: 1em;
+    background-color:hsl(203, 25%, 66%);
+    padding: 1rem;
     color: #d9480f;
     box-shadow: 0 0 .7rem black;
   }
@@ -181,18 +173,18 @@ margin-left: 6.5rem;
   h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
-    color:rgba(150,199,70);
+    color:hsl(203, 95%, 8%);
   }
   h2 {
     font-size: 3.5rem;
     background-color: rgba(255,233,238);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color:rgba(150,199,70);
+    color:hsl(203, 95%, 8%);
   }
   p {
     font-size: 2.5rem;
-    color:rgba(163,232,226);
+    color:hsl(203, 95%, 8%);
   }
   /* ==============================
 		li -- p --
@@ -200,7 +192,7 @@ margin-left: 6.5rem;
   li {
     list-style: none;
     font-size: 2.5rem;
-    color: rgba(163,232,226);
+    color: hsl(203, 95%, 8%);
   }
   /* ==============================
 		img
@@ -208,7 +200,7 @@ margin-left: 6.5rem;
   img {
     float: right;
     border-radius:100%;
-    border:.3rem solid rgba(232,224,104); 
+    border:.3rem solid hsl(194, 62%, 34%); 
   }
   /* ==============================
 		Footer
@@ -218,11 +210,11 @@ margin-left: 6.5rem;
   }
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
-margin-left:10rem;
+color:black;
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
-    margin-left:4.3rem;
+color:black
   }
 }
 
@@ -296,15 +288,16 @@ margin-left:10rem;
     font-family: 'Montserrat', sans-serif;
   }
   p {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
+    margin-left:4rem;
   }
   /* ==============================
 		li -- p --
 	   ============================== */
   li {
     list-style: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
   }
   /* ==============================
@@ -323,11 +316,11 @@ margin-left:10rem;
   }
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
-margin-left:14.5rem;
+color: black;
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
-    margin-left:7.5rem;
+color:black;
   }
 }
 
@@ -349,6 +342,7 @@ margin-left:14.5rem;
     font-family: 'Lato', sans-serif;
     text-align: justify;
   }
+* {box-sizing: border-box;}
   .wrapper {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
@@ -430,13 +424,12 @@ margin-left:14.5rem;
   }
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
-margin-left:20rem;
 color:black;
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
-    margin-left:12rem;
     color:black;
+display:grid;
   }
 }
 
