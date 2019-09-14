@@ -108,18 +108,13 @@ margin-left: 6.5rem;
     margin-left:2rem;
   }
 }
-
-
 /* ========================================================= */
-/*
-/*
-/*
-/*
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/
+
 /* ========================================================= */
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
   html {
     padding: 0;
     margin: 0;
@@ -217,8 +212,6 @@ color:black;
 color:black
   }
 }
-
-
 /* =========================================================
 /*
 /*
