@@ -222,7 +222,7 @@ color:black;
 /*
 /*
 /* ========================================================= */
-@media screen and (min-width: 769px) and (max-width: 1380px) {
+@media print, screen and (min-width: 769px) and (max-width: 1380px) {
   html {
     padding: 0;
     margin: 0;
@@ -330,7 +330,7 @@ color:black;
 /*
 /* ========================================================= */
 
-@media screen and (min-width: 992px) and (max-width:4000px) {
+@media print, screen and (min-width: 992px) and (max-width:4000px) {
   html {
     padding: 0;
     margin: 0;
