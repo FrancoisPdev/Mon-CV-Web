@@ -13,7 +13,7 @@
 /*
 /* ========================================================= */
 
-@media screen and (min-width: 240px) and (max-width: 600px) {
+@media print, screen and (min-width: 240px) and (max-width: 600px) {
   html {
     padding: 0;
     margin: 0;
