@@ -101,11 +101,13 @@
   }
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
-margin-left: 6.5rem;
+padding-left: 70px;
+color:black;
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
-    margin-left:2rem;
+    padding-left:21px;
+    color:black;
   }
 }
 /* ========================================================= */
