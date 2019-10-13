@@ -13,11 +13,7 @@
 /*
 /* ========================================================= */
 
-<<<<<<< HEAD
 @media all and (min-width: 240px) and (max-width: 600px) {
-=======
-@media print, screen and (min-width: 240px) and (max-width: 600px) {
->>>>>>> fd1d8f187ab89737cda6f291f417fed08c21e76c
   html {
     padding: 0;
     margin: 0;
@@ -105,20 +101,14 @@
   }
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
-<<<<<<< HEAD
 padding-left: 70px;
-=======
 margin-left: 6.5rem;
->>>>>>> fd1d8f187ab89737cda6f291f417fed08c21e76c
 color:black;
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
-<<<<<<< HEAD
     padding-left:21px;
-=======
     margin-left:2rem;
->>>>>>> fd1d8f187ab89737cda6f291f417fed08c21e76c
     color:black;
   }
 }
@@ -220,10 +210,12 @@ color:black;
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
 color:black;
+margin-left:100px
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
 color:black;
+margin-left:46px;
   }
 }
 /* =========================================================
@@ -234,11 +226,8 @@ color:black;
 /*
 /*
 /* ========================================================= */
-<<<<<<< HEAD
+
 @media all and (min-width: 769px) and (max-width: 1380px) {
-=======
-@media print, screen and (min-width: 769px) and (max-width: 1380px) {
->>>>>>> fd1d8f187ab89737cda6f291f417fed08c21e76c
   html {
     padding: 0;
     margin: 0;
@@ -346,11 +335,8 @@ color:black;
 /*
 /* ========================================================= */
 
-<<<<<<< HEAD
 @media all and (min-width: 992px) and (max-width:4000px) {
-=======
-@media print, screen and (min-width: 992px) and (max-width:4000px) {
->>>>>>> fd1d8f187ab89737cda6f291f417fed08c21e76c
+
   html {
     padding: 0;
     margin: 0;
