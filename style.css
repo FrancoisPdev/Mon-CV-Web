@@ -429,11 +429,12 @@ padding-left:73px;
 /* icone top */
  .fa-twitter, .fa-github, .fa-wordpress, .fa-linkedin{
 color:black;
+margin-left: 70px;
 }
 /* icone bottom */
   .fa-running, .fa-futbol, .fa-swimmer, .fa-laptop-code, .fa-book-reader, .fa-gamepad{ 
     color:black;
-display:grid;
+    margin-left: 20px;
   }
 }
 
