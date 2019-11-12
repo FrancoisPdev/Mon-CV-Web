@@ -1,3 +1,5 @@
+![demo](https://img.shields.io/badge/Build-HTML5-brightgreen)
+![demo](https://img.shields.io/badge/Build-CSS3-brightgreen)
 ![img](https://github.com/fanfanpsg/PARENTFcv/blob/master/images/web%20cv.png?raw=true)
 ## Welcome web surfer.
 
