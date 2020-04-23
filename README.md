@@ -9,4 +9,4 @@
 * BUT, now i update my new seconde cv :-# 
 * (the Oldcv is intact. I will not change the content)
 
-my contact -> [mail](admin@francoisdparent.fr)
+my contact -> admin@francoisdparent.fr
