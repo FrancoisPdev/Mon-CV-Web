@@ -102,8 +102,8 @@
        /* icone top */
        .fa-twitter,
        .fa-github,
-       .fa-wordpress,
-       .fa-linkedin {
+       .fa-linkedin,
+       .fa-discord {
            margin-left: 13.7rem;
            padding: 1.5rem;
    
@@ -221,8 +221,8 @@
        /* icone top */
        .fa-twitter,
        .fa-github,
-       .fa-wordpress,
-       .fa-linkedin {
+       .fa-linkedin,
+       .fa-discord {
            color: black;
            margin: 4.25rem;
            padding-left: 5.25rem;
@@ -339,8 +339,8 @@
        /* icone top */
        .fa-twitter,
        .fa-github,
-       .fa-wordpress,
-       .fa-linkedin {
+       .fa-linkedin,
+       .fa-discord {
            color: black;
            padding: 2.5rem;
            padding-left: 17.5rem;
@@ -461,8 +461,8 @@
        /* icone top */
        .fa-twitter,
        .fa-github,
-       .fa-wordpress,
-       .fa-linkedin {
+       .fa-linkedin,
+       .fa-discord {
            color: black;
            padding-left: 13rem;
            padding-right: 13rem;
