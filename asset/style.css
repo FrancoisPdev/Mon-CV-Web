@@ -20,6 +20,7 @@
            font-size: 10px;
            font-family: "Lato", sans-serif;
            text-align: justify;
+           
        }
        .wrapper {
            display: grid;
@@ -32,7 +33,7 @@
        footer {
            border: 0.2rem dashed black;
            border-radius: 1rem;
-           background-color: rgba(233, 171, 88, 0.5);
+           background : linear-gradient(#c973ff, #aebaf8, #ccfbff, #ef96c5);
            padding: 1rem;
            color: #d9480f;
            box-shadow: 0 0 1rem black;
@@ -148,7 +149,7 @@
        footer {
            border: 0.2rem dashed black;
            border-radius: 1rem;
-           background-color: hsl(203, 25%, 66%);
+           background : linear-gradient(#7dc387, #dbe9ea, #a9f99e, #46add5);
            padding: 1rem;
            color: #d9480f;
            box-shadow: 0 0 0.7rem black;
@@ -380,6 +381,7 @@
            box-sizing: border-box;
        }
        .wrapper {
+           background: linear-gradient(#0c7bb3, #f2bae8, #ffa4ed, #ffddec);
            display: grid;
            grid-template-columns: repeat(13, 1fr);
            grid-gap: 2rem;
@@ -390,7 +392,7 @@
        footer {
            border: 0.2rem dashed rgb(255, 0, 0);
            border-radius: 1rem;
-           background-color: hsl(0, 0%, 95%);
+           background: linear-gradient(#ead6ee, #a0f1ea);
            padding: 1em;
            color: #d9480f;
            box-shadow: 0 0 0.7rem black;
